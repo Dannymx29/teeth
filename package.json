@@ -1,0 +1,26 @@
+{
+  "name": "teeth",
+  "version": "1.0.0",
+  "description": "por una sonrisa mas brillante",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Dannymx29/teeth.git"
+  },
+  "keywords": [
+    "teeth",
+    "smile"
+  ],
+  "author": "DannyMx29 <bran.dan.her.gar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dannymx29/teeth/issues"
+  },
+  "homepage": "https://github.com/Dannymx29/teeth#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
