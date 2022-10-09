@@ -1,0 +1,21 @@
+#btn-citas {
+    color:#cb4789;
+    background-color:  transparent;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid;
+    border-color:#cb4789;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+#btn-citas:hover{
+    color: #ffffff !important;
+    background-color: #cb4789;
+}
+@media (min-width: 500px) {
+    #CDTD{
+        display: none;
+    }
+}

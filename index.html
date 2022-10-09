@@ -15,7 +15,7 @@
 
             <script defer src="./src/assets/main.js"></script>
 
-            <script src="./src/css/index.css"></script>
+            <link rel="stylesheet" href="./src/css/index.css">
 
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
             
@@ -89,7 +89,7 @@
 
                           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
 
-                            <span class="block text-indigo-600 xl:inline text-center">
+                            <span id="CD" class="cd block text-indigo-600 xl:inline text-center" style="color:#cb4789">
                               
                               C.D.
                             
@@ -191,17 +191,21 @@
 
                 </div>
 
-                <div id="btn-citas" class="row pt-3">
+                <div class="row pt-3">
 
-                  <div class="col text-center align-self-center">
+                  <div class="col"></div>
 
-                    <a href="https://wa.me/525561024512?text=Me%20gustaria%20agendar%20una%20cita." type="button" class="btn btn-outline-info" target="_blank">
+                  <div  id="btn-citas" class="col text-center">
+
+                    <a href="https://wa.me/525561024512?text=Me%20gustaria%20agendar%20una%20cita." target="_blank">
                       
                       Agendar cita
                     
                     </a>
 
                   </div>
+
+                  <div class="col"></div>
 
                 </div>
 
@@ -656,7 +660,7 @@
                   
                   </span>
 
-                  <span class="block text-indigo-600">
+                  <span class="block text-indigo-600" style="color:#cb4789">
                     
                     salud dental.
                   
@@ -668,7 +672,7 @@
 
                   <svg id="fb" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48" style=" fill:#000000;">
 
-                      <span class="hidden md:block block text-indigo-600">
+                      <span id="CDTD" class="hidden md:block block text-indigo-600 align-self-center" style="color:#cb4789">
                         
                         Cuidemos de tus dientes.
                       
@@ -676,7 +680,7 @@
                       
                   </svg>
 
-                  <svg id="tw" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48" style=" fill:#000000;">
+                  <svg class="offset-sm-3" id="logo-footer" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48" style=" fill:#000000;">
 
                       <img class="" src="https://images.pexels.com/photos/13939628/pexels-photo-13939628.jpeg?auto=compress&cs=tinysrgb&w=150&h=125&dpr=1" alt="logo">
 
