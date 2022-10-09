@@ -14,7 +14,7 @@
     color: #ffffff !important;
     background-color: #cb4789;
 }
-@media (min-width: 500px) {
+@media (max-width: 1024px) {
     #CDTD{
         display: none;
     }
